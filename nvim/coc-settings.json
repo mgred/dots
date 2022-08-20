@@ -1,0 +1,22 @@
+{
+  "languageserver": {
+    "ccls": {
+      "command": "ccls",
+      "filetypes": ["c", "cpp", "cuda", "objc", "obcpp"],
+      "rootPatterns": [".ccls-root", "compile_commands.json"],
+      "initializationOptions": {
+        "cache": {
+          "directory": "/tmp/ccls"
+        },
+        "client": {
+          "snippetSupport": true
+        }
+      }
+    }
+  },
+  "javascript.suggestionActions.enabled": false,
+  "typescript.preferences.importModuleSpecifier": "non-relative",
+  "typescript.preferences.quoteStyle": "double",
+  "typescript.updateImportsOnFileMove.enable": true,
+  "typescript.format.insertSpaceAfterOpeningAndBeforeClosingNonemptyBraces": true
+}

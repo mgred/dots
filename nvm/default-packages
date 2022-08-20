@@ -1,0 +1,4 @@
+@bazel/bazelisk
+@angular/cli
+tree-sitter-cli
+neovim
